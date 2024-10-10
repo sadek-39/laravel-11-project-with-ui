@@ -20,8 +20,10 @@
         @include('layouts.sidebar')
 
         <!-- Page Content -->
-        <main>
-            {{ $slot }}
+        <main class="w-100 mx-auto mt-4 mx-5 p-5 bg-white bg-dark shadow-sm rounded-lg">
+            <div class="mx-5 mt-3 px-5">
+                {{ $slot }}
+            </div>
         </main>
     </body>
 </html>

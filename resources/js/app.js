@@ -23,3 +23,16 @@ window.addEventListener('DOMContentLoaded', event => {
     }
 
 });
+
+window.addEventListener('DOMContentLoaded', event => {
+
+    // Toggle the side navigation
+    const checkBox = document.body.querySelector('form .form-switch');
+    console.log(checkBox);
+
+    checkBox.addEventListener('change', function(e) {
+        checkBox.value = e.target.checked ? 1 : 0;
+        console.log(checkBox.value)
+    })
+
+});

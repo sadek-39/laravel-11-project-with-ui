@@ -1,23 +1,21 @@
 <x-app-layout>
+    <div class="container-fluid"> <!-- Adjust padding for the sidebar width -->
+        <div class="mx-5 px-5 row">
+            <div class="col-lg-8 col-md-12">
+                <h1 class="mb-3">Responsive Heading</h1>
+                <p>This is a responsive paragraph. On larger screens, it will take up 8 columns, and on smaller screens, it will take up the full width (12 columns).</p>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <h2 class="mb-3">Sidebar Content</h2>
+                <p>This section will take up 4 columns on large screens and the full width on small screens.</p>
+            </div>
+        </div>
 
+        <div class="mx-5 px-5 row mt-5">
+            <div class="col-12">
+                <h3>Full-width Section</h3>
+                <p>This section will always take up the full width of the screen.</p>
+            </div>
+        </div>
+    </div>
 </x-app-layout>
-
-{{--        <!DOCTYPE html>--}}
-{{--<html lang="en">--}}
-{{--<head>--}}
-{{--    <meta charset="utf-8" />--}}
-{{--    <meta http-equiv="X-UA-Compatible" content="IE=edge" />--}}
-{{--    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />--}}
-{{--    <meta name="description" content="" />--}}
-{{--    <meta name="author" content="" />--}}
-{{--    <title>Sidenav Light - SB Admin</title>--}}
-{{--    @vite(['resources/css/app.css', 'resources/js/app.js'])--}}
-{{--    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>--}}
-{{--</head>--}}
-{{--<body class="sb-nav-fixed">--}}
-
-
-{{--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>--}}
-
-{{--</body>--}}
-{{--</html>--}}
